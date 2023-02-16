@@ -1,0 +1,30 @@
+<p>employee works!</p>
+<div class="container">
+    
+    <table class="table">
+      <thead>
+        <tr>
+          <th>employee Id</th>
+          <th>employee Name</th>
+          <th>employee Salary</th>
+          <th>employee Status  </th>
+          <th>employee Phone </th>
+          <th> employee Email </th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr ngFor="let employee of employee">
+          <td>{{employee.employeeId}}</td>
+          <td>{{employee.employeeName}}</td>
+          <td>{{employee.employeeSalary}}</td>
+          <td>{{employee.employeeStatus}}</td>
+          <td>{{employee.employeePhone}}</td>
+          <td>{{employee.employeeEmail}}</td>
+          
+        </tr>      
+        
+      </tbody>
+    </table>
+  </div>
+  
